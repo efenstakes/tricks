@@ -1,0 +1,10 @@
+
+Problem
+
+X. Generating System Tar File
+	
+	systools:make_script("app_rel_file_path/rel_file_name").
+
+	systools:make_tar("app_rel_file_path/rel_file_name", [ { erts, "C:\Dev\erl10.3" }, { dirs: [ "dirs_to_include" ] } ]).
+
+
