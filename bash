@@ -5,6 +5,8 @@ Problem:
     
     Solution
 	dos2unix filename
+	OR 
+	sed -i 's/\r$//' filename
 
     if above 'filename' is opened in editor, it may have all content in the same line.
     in such a case, run
