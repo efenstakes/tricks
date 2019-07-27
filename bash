@@ -10,5 +10,8 @@ Problem:
     in such a case, run
     unix2dos filename
 
+2. starting bash files 
+    solution 
 
+    use #!/bin/bash or #!/bin/sh
     
